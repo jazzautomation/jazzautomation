@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>MenShirtsPage</pageName>
+	<title></title>
+	<urlExtension>mens-shirts/men-shirts</urlExtension>
+	<keyDomElementName>shirtsTitle</keyDomElementName>		
+	<domElements>
+		<entry>
+			<key>shirtsTitle</key>
+			<value>
+				<jquery>$('#results-col img[alt="shirts"]')</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>secondProduct-chrome</key>
+			<value>
+				<jquery>$('.item-pic')[1]</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>secondProduct-firefox</key>
+			<value>
+				<jquery>$('.item-pic a')</jquery>
+				<index>1</index>
+			</value>
+		</entry>		
+		
+		<entry>
+			<key>quickShop</key>
+			<value>
+				<jquery>$('div.quick-shop[style=\"display: block;\"]')</jquery>
+			</value>
+		</entry>
+
+		<entry>
+			<key>closeAd</key>
+			<value>
+				<jquery>$('div.expandButton.topButton')[1]</jquery>
+			</value>
+		</entry>							
+		
+	</domElements>			
+</page>

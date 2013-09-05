@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>ShirtProductPage</pageName>
+	<title></title>
+	<urlExtension>www.columbia.com</urlExtension>
+	<keyDomElementName>details</keyDomElementName>		
+	<domElements>
+		<entry>
+			<key>sizeS</key>
+			<value>
+				<jquery>$('div.size_container div.size[sizeId="S"]')</jquery>
+			</value>
+		</entry>
+	
+		<entry>
+			<key>sizeM</key>
+			<value>
+				<jquery>$('div.size_container div.size[sizeId="M"]')</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>sizeL</key>
+			<value>
+				<jquery>$('div.size_container div.size[sizeId="L"]')</jquery>
+			</value>
+		</entry>
+		
+		<entry>
+			<key>addToCart</key>
+			<value>
+				<jquery>$('#pdpAddToCartContainer div input.pdpCheckoutBtn.add-to-cart')</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>details</key>
+			<value>
+				<jquery>$('#product-info-details-tab')</jquery>
+			</value>
+		</entry>	
+
+    <entry>
+      <key>quickCartClose</key>
+      <value>
+        <jquery>$('#quickshop-close-div a')</jquery>
+      </value>
+    </entry>
+
+    <entry>
+      <key>viewCartCheckOut</key>
+      <value>
+        <jquery>$('#minicart-timer:a')</jquery>
+      </value>
+    </entry>
+		<entry>
+			<key>checkout</key>
+			<value>
+        		<jquery>$('#minicart-checkout-activebutton a')</jquery>
+			</value>
+		</entry>
+					
+		
+	</domElements>			
+</page>

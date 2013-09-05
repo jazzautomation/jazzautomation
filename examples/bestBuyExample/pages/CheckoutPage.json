@@ -1,0 +1,15 @@
+{
+	"pageName":"CheckoutPage",
+	"title": "BestBuy.com - Sign In",
+	"urlExtension": "/site/olspage.jsp",
+	"keyDomElementName": "checkoutAsGuest",
+	"domElements" :
+		{
+			"checkoutAsGuest" :
+				{
+					"jquery": "$('#dont_create_accountBTN')"				
+				}
+		}
+}
+				
+				

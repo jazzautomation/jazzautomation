@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>CheckoutPage</pageName>
+	<title>Columbia Sportswear | Checkout Account Sign-In</title>
+	<urlExtension>www.columbia.com/on/demandware.store/</urlExtension>
+	<keyDomElementName>checkoutTitle</keyDomElementName>		
+	<domElements>
+		<entry>
+			<key>checkoutTitle</key>
+			<value>
+				<jquery>$('#checkout h1:contains(\"Checkout\")')</jquery>
+			</value>
+		</entry>
+
+		<entry>
+			<key>checkoutAsGuest</key>
+			<value>
+				<jquery>$('#dwfrm_login_unregistered a.checkout-as-guest')</jquery>
+			</value>
+		</entry>				
+		
+	</domElements>			
+</page>

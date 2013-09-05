@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>CheckoutGuestPage</pageName>
+	<title>Columbia Sportswear | Checkout: Shipping Step 1</title>
+	<urlExtension>www.columbia.com/on/demandware.store</urlExtension>
+	<keyDomElementName>checkoutTitle</keyDomElementName>		
+	<domElements>	
+		<entry>
+			<key>firstName</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_firstname')</jquery>
+			</value>
+		</entry>	
+		<entry>
+			<key>lastName</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_lastname')</jquery>
+			</value>
+		</entry>	
+		<entry>
+			<key>address1</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_address1')</jquery>
+			</value>
+		</entry>						
+		<entry>
+			<key>city</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_city')</jquery>
+			</value>
+		</entry>	
+		<entry>
+			<key>state</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_states_shippingstate')</jquery>
+			</value>
+		</entry>
+		
+		<entry>
+			<key>zip</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_zip')</jquery>
+			</value>
+		</entry>		
+		<entry>
+			<key>telephone</key>
+			<value>
+				<jquery>$('#Id_dwfrm_shipping_shippingAddress_addressfields_phone')</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>orderTotal</key>
+			<value>
+				<jquery>$('#estimated-total dl dd')</jquery>
+			</value>
+		</entry>			
+						
+	</domElements>			
+</page>

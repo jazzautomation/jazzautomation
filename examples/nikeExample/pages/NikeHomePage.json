@@ -1,0 +1,26 @@
+{
+    "pageName":"NikeHomePage",
+    "title": "Nike.com",
+    "urlExtension": "www.nike.com",
+    "keyDomElementName": "mainMenu",
+    "domElements" :
+    {
+        "mainMenu" :
+        {
+            "jquery": "$('div.home.facet.nav-section a[data-nav-tracking=\"home\"]')"
+        },
+        "menCategory" :
+        {
+            "jquery" : "$('div.shop-2.facet.nav-section.[data-subnav=\"men\"]')"
+
+        },
+        "menShoes" :
+        {
+            "jquery" : "$('div[data-subnav=\"men\"] div.subnav-itemheader a[data-track-click=\"true\"]:contains(\"SHOES\")')"
+        },
+        "orderStatusButton" :
+        {
+            "jquery" : "$('div.nike-cq-cta-component.nike-cq-cta-component.nike-cq-global-footer-footer-boxes-footer-boxes-box-2-container-moveable_0-resource.nike-cq-cta-text-color-ffffff.nike-cq-cta-text-size-14.nike-cq-cta-style-rounded.nike-cq-cta-width-180.nike-cq-cta-height-40.nike-cq-cta-color-333333.nike-cq-cta-alignment-textcenter.nike-cq-cta-icon-empty a[data-tracking=\"CHECK ORDER STATUS\"]')"
+        }
+    }
+}

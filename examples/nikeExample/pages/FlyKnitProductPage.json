@@ -1,0 +1,51 @@
+{
+    "pageName":"FlyKnitRacerDetailPage",
+    "title": "Nike Store. Nike Flyknit Racer Unisex Running Shoe (Men's Sizing)",
+    "urlExtension": "/us/en_us/pd/flyknit-racer-unisex-running-shoe",
+    "keyDomElementName": "flyKnitRacerHoverImage",
+    "domElements" :
+    {
+        "flyKnitRacerHoverImage" :
+        {
+            "jquery" : "$('div.hero-image-container img[alt=\"Nike Flyknit Racer Unisex Running Shoe (Men\\'s Sizing)\"]')"
+        },
+        "unitPrice" :
+        {
+            "jquery" : "$('div.exp-pdp-product-price.exp-pdp-product-swoosh-price-available span.exp-pdp-local-price')"
+        },
+        "sizesButton" :
+        {
+            "jquery" : "$('.exp-pdp-size-dropdown.exp-pdp-dropdown.selectBox-dropdown')"
+        },
+        "sizeTen" :
+        {
+            "jquery" : "$('ul.selectBox-options.exp-pdp-size-dropdown.exp-pdp-dropdown li:contains(\"10\")')"
+        },
+        "sizeSix" :
+        {
+            "jquery" : "$('ul.selectBox-options.exp-pdp-size-dropdown.exp-pdp-dropdown li:contains(\"6\")')"
+        },        
+        "quantityButton" :
+        {
+            "jquery" : "$('.exp-pdp-quantity-dropdown.exp-pdp-dropdown.selectBox-dropdown')"
+        },
+        "quantityDropdown" :
+        {
+            "jquery" : "$('.nsg-form--drop-down--option[rel=\"1\"]')",
+            "index"  : 0
+        },
+        "blackShoe" :
+        {
+            "jquery" : "$('a[data-productid=\"688682\"]')"
+        },
+        "addToCartButton" :
+        {
+            "jquery" : "$('div.exp-pdp-save-container button.add-to-cart.nsg-button--nike-orange')"
+        },
+        "quickCartCount" :
+        {
+            "jquery" : "$('div.exp-cart-count[data-qa=\"darkbar.cartcount\"] span.exp-cart-qty')"
+        }
+    }
+}
+

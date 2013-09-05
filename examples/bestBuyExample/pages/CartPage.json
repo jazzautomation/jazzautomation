@@ -1,0 +1,20 @@
+{
+	"pageName":"CartPage",
+	"title": "Cart",
+	"urlExtension": "site/olspage.jsp",
+	"keyDomElementName": "checkout",	
+	"domElements" :
+		{
+			"checkout" :
+				{
+					"jquery": "$('a.large-action-button.checkout.btn')"			
+				},
+				
+			"delivery" :
+				{
+					"jquery": "$('input.fulfillment-type-radio[value=\"DELIVERY\"]')"			
+				}
+		}		
+}
+				
+				

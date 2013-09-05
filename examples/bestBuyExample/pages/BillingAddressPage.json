@@ -1,0 +1,23 @@
+{
+	"pageName":"BillingAddressPage",
+	"title": "",
+	"urlExtension": "olspage.jsp",
+	"keyDomElementName": "billingAddress",	
+	"domElements" :
+		{
+			"billingAddress" :
+				{
+					"jquery": "$('h1.primtitle')"				
+				},
+			"firstName" :
+				{
+					"jquery": "$('input[name=\"TxtFirstName\"]')"				
+				},
+			"lastName" :
+				{
+					"jquery": "$('input[name=\"TxtLastName\"]')"				
+				}								
+		}
+}
+				
+				

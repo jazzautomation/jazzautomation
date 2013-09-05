@@ -1,0 +1,14 @@
+{
+	"pageName":"TvVideoPage",
+	"title": "",
+	"urlExtension": "TV-Video/Televisions/",
+	"domElements" :
+		{
+			"40To59TV" :
+				{
+					"jquery": "$('div.primary-panel li a:contains(\"40\"):contains(\"-59\"):contains(\"TVs\")')"					
+				}
+		}
+}
+				
+				

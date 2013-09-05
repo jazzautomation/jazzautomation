@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+  <pageName>PortalLanguageChoose</pageName>
+  <title>Columbia Sportswear | International > Select a Country</title>
+  <urlExtension>www.columbia.com</urlExtension>
+  <domElements>
+    <entry>
+      <key>country</key>
+      <value>
+        <jquery>$('#n_america span:contains("United States")')</jquery>
+      </value>
+    </entry>
+
+    <entry>
+      <key>countryLink</key>
+      <value>
+        <jquery>$('#n_america a:contains("United States")')</jquery>
+
+      </value>
+    </entry>
+
+  </domElements>
+</page>

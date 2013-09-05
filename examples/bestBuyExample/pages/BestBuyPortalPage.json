@@ -1,0 +1,39 @@
+{
+	"pageName":"BestBuyPortalPage",
+	"title": "Best Buy: Making Technology Work for You",
+	"urlExtension": "www.bestbuy.com",
+	"keyDomElementName": "productMenu",
+	"domElements" :
+		{
+			"productMenu" :
+				{
+					"jquery": "$('#nav li.nav-pro a[data-lid=\"ubr_prd\"]')"					
+				},
+			"serviceMenu" :
+				{
+					"jquery": "$('#nav li.nav-pro a[data-lid=\"ubr_prd\"]')"
+				},
+			"giftMenu" :
+				{
+					"jquery": "$('#nav li a[data-lid=\"ubr_shp\"]')"				
+				},
+			"tvHomeTheaterSubMenu" :
+				{
+					"jquery": "$('#nav a[data-lid=\"ubr_tvv\"]')"
+				},
+			"tvLink" :
+				{
+					"jquery": "$('#nav a[data-lid=\"ubr_tv_tvs\"]')"				
+				},
+			"cart"	:
+				{
+					"jquery":	"$('#cart')"
+				},
+			"cartItems"	:
+				{
+					"jquery":	"$('#cart a span strong')"				
+				}
+		}
+}
+				
+				

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>PortalPage</pageName>
+	<title></title>
+	<urlExtension>www.columbia.com</urlExtension>
+	<domElements>
+		<entry>
+			<key>menMenu</key>
+			<value>
+				<jquery>$('#nav-men-ddheader:a')</jquery>
+			</value>
+		</entry>
+
+		<entry>
+			<key>menShirtsHoverLink</key>
+			<value>
+				<jquery>$('#nav-men-ddcontent h6 a:contains("Shirts")')</jquery>
+			</value>
+		</entry>		
+		<entry>
+			<key>flatRateShipping</key>
+			<value>
+				<jquery>$('#sixdollar_shipping')</jquery>
+			</value>
+		</entry>
+		<entry>
+			<key>emptyCart</key>
+			<value>
+				<id>minicart-empty-text</id>
+			</value>
+		</entry>				
+		
+	</domElements>			
+</page>

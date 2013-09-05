@@ -1,0 +1,34 @@
+{
+    "pageName":"MensShoes",
+    "title": "Nike Store. Men's Shoes, Sneakers & Cleats",
+    "urlExtension": "/us/en_us/pw/mens-shoes/7puZbrk",
+    "keyDomElementName": "shopAllButton",
+    "domElements" :
+    {
+        "shopAllButton" :
+        {
+            "jquery" : "$('div.more a[data-title=\"Customize with NIKEiD:more\"]')"
+        },
+        "productCount" :
+        {
+            "jquery" : "$('div.product-count.nsg-font-family--platform')"
+        },
+        "runningFacet" :
+        {
+            "jquery" : "$('div.facet-list-container div.sub-menu-item.inline-facet a:contains(\"Running\")')"
+        },
+        "basketballFacet" :
+        {
+            "jquery" : "$('div.facet-list-container div.sub-menu-item.inline-facet a:contains(\"Basketball\")')"
+        },
+        "jordanFacet" :
+        {
+            "jquery" : "$('div.facet-list-container div.sub-menu-item.inline-facet a:contains(\"Jordan\")')"
+        },
+        "flyKnitRacerImg" :
+        {
+            "jquery" : "$('div.gridwall-image-wrapper.sprite-sheet.sprite-index-0 img[alt=\"Nike Flyknit Racer\"]')"
+        }
+    }
+}
+

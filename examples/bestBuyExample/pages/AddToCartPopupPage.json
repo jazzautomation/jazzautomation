@@ -1,0 +1,19 @@
+{
+	"pageName":"AddToCartPopupPage",
+	"title": "40\" - 59\": TVs - Best Buy",
+	"urlExtension": "site/olstemplatemapper.jsp",
+	"keyDomElementName": "addToCartPopupTitle",
+	"domElements" :
+		{
+			"addToCartPopupTitle" :
+				{
+					"jquery": "$('div#cboxContent span.css-title:first')"				
+				},
+			"goToYourCart" :
+				{
+					"jquery": "$('a.css-btnGoToCart')"					
+				}
+		}
+}
+				
+				

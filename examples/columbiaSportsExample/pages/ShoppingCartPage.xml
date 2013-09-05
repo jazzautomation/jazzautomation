@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+	<pageName>ShoppingCartPage</pageName>
+	<title></title>
+	<urlExtension>www.columbia.com</urlExtension>
+	<keyDomElementName>shoppingCartHeadTitle</keyDomElementName>		
+	<domElements>
+		<entry>
+			<key>shoppingCartHeadTitle</key>
+			<value>
+				<jquery>$('#page h1:contains("Shopping Cart")')</jquery>
+			</value>
+		</entry>
+
+		<entry>
+			<key>continueToCheckOut</key>
+			<value>
+				<jquery>$('#shopping-cart button.continue-to-checkoutp')</jquery>
+			</value>
+		</entry>
+    <entry>
+      <key>sixBuckflatRateShipping</key>
+      <value>
+        <jquery>$('div.cart-secure dt:contains(\"$6 Flat rate shipping\")')</jquery>
+      </value>
+    </entry>
+
+	</domElements>			
+</page>
