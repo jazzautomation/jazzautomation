@@ -23,8 +23,14 @@
 				<jquery>$('.item-pic a')</jquery>
 				<index>1</index>
 			</value>
-		</entry>		
-		
+		</entry>
+    <entry>
+      <key>secondProduct-safari</key>
+      <value>
+        <jquery>$('.item-pic a')</jquery>
+        <index>1</index>
+      </value>
+    </entry>
 		<entry>
 			<key>quickShop</key>
 			<value>

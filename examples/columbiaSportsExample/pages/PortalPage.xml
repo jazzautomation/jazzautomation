@@ -3,7 +3,14 @@
 	<pageName>PortalPage</pageName>
 	<title></title>
 	<urlExtension>www.columbia.com</urlExtension>
+  <keyDomElementName>headerLogo</keyDomElementName>
 	<domElements>
+    <entry>
+      <key>headerLogo</key>
+      <value>
+        <jquery>$('#headerLogo:a')</jquery>
+      </value>
+    </entry>
 		<entry>
 			<key>menMenu</key>
 			<value>
