@@ -31,20 +31,20 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
       | basketballFacet         |  Basketball           |
       | jordanFacet             |  Jordan               |
 
-  Scenario: Click on Nike Flyknit Racer
+  Scenario: Click on Nike Free 5.0
     Given I am ON "MensShoes"
-    And I CLICK "flyKnitRacerImg"
-    Then I should be ON "FlyKnitRacerDetailPage"
+    And I CLICK "nikeFreeImg"
+    Then I should be ON "ProductDetailPage"
 
-  Scenario: Validate Fly Knit Racer Values
-    Given I am ON the "FlyKnitRacerDetailPage"
+  Scenario: Validate Nike Free values
+    Given I am ON the "ProductDetailPage"
     Then I should EXPECT
-      | unitPrice               | $150                  |
+      | unitPrice               | $160                  |
 
-  Scenario: Add 1 pair of size 10 shoes to the cart
-    Given I am ON the "FlyKnitRacerDetailPage"
+  Scenario: Add 1 pair of size 12 shoes to the cart
+    Given I am ON the "ProductDetailPage"
     And I CLICK the "sizesButton"
-    And I CLICK "sizeSix"
+    And I CLICK "sizeTwelve"
     And I CLICK the "quantityButton"
     And I CLICK "quantityDropdown"
     And I CLICK "addToCartButton"

@@ -10,9 +10,9 @@
 					"jquery": "$('a.large-action-button.checkout.btn')"			
 				},
 				
-			"delivery" :
+			"shipping" :
 				{
-					"jquery": "$('input.fulfillment-type-radio[value=\"DELIVERY\"]')"			
+					"jquery": "$('input.fulfillment-type-radio[value=\"SHIPPING\"]')"			
 				}
 		}		
 }

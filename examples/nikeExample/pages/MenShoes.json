@@ -1,6 +1,6 @@
 {
     "pageName":"MensShoes",
-    "title": "Nike Store. Men's Shoes, Sneakers & Cleats",
+    "title": "",
     "urlExtension": "/us/en_us/pw/mens-shoes/7puZbrk",
     "keyDomElementName": "shopAllButton",
     "domElements" :
@@ -28,6 +28,10 @@
         "flyKnitRacerImg" :
         {
             "jquery" : "$('div.gridwall-image-wrapper.sprite-sheet.sprite-index-0 img[alt=\"Nike Flyknit Racer\"]')"
+        },
+        "nikeFreeImg" :
+        {
+            "jquery" : "$('div.gridwall-image-wrapper.sprite-sheet.sprite-index-0 img[alt=\"Nike Free Flyknit+\"]')"
         }
     }
 }

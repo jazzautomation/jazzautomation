@@ -1,0 +1,29 @@
+{
+    "pageName":"BookDetailPage",
+    "title": "",
+    "urlExtension": "www.amazon.com",
+	"keyDomElementName": "addToCart",    
+    "domElements" :
+    {
+        "addToCart" :
+        {
+            "jquery": "$('#add-to-cart-button')"
+        },
+        "kindlePrice" :
+        {
+        	"jquery" : "$('a.a-button-text span:contains(\"Kindle\")~span')"
+        },
+        "hardcover" :
+        {
+        	"jquery" : "$('a.a-button-text')[2]"
+        },         
+        "hardcoverPrice" :
+        {
+        	"jquery" : "$('a.a-button-text span:contains(\"Hardcover\")~span')"
+        },        
+        "paperbackPrice" :
+        {
+        	"jquery" : "$('a.a-button-text span:contains(\"Paperback\")~span')"
+        }    
+    }
+}

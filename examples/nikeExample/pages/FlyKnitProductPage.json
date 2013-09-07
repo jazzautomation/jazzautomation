@@ -21,6 +21,10 @@
         {
             "jquery" : "$('ul.selectBox-options.exp-pdp-size-dropdown.exp-pdp-dropdown li:contains(\"10\")')"
         },
+        "sizeTwelve" :
+        {
+            "jquery" : "$('ul.selectBox-options.exp-pdp-size-dropdown.exp-pdp-dropdown li:contains(\"12\")')"
+        },        
         "sizeSix" :
         {
             "jquery" : "$('ul.selectBox-options.exp-pdp-size-dropdown.exp-pdp-dropdown li:contains(\"6\")')"

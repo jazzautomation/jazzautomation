@@ -9,14 +9,15 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
 
 
   Scenario: Verify that we have an empty cart on the initial portal page
-    Given I am ON "PortalPage"
+    Given I am ON "HomePage"
     Then I should EXPECT
-      | emptyCart              | 0 items              |
+      | cartCount              |         0      |
 
   Scenario: Search Harry Porter at book
-    Given I am ON "PortalPage"
-    And I click "section"
-    And I click "books"
+    Given I am ON "HomePage"
+    And I click "allButton"
+    And I select
+    	|	selectCategory 	| Books		|   
     And I enter
     	| searchField                 | Harry Potter                 | 
     And I click "go"   
@@ -26,36 +27,36 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
   Scenario: Go to SearchResultsPage and verify  first result Special Edition Harry Potter Paperback Box Set 
     Given I am ON "SearchResultsPage"
     Then I should EXPECT
-    | firstResult               | Special Edition Harry Potter Paperback Box Set            |
-    | chamberOfSecretsBook2     | visible             										|    
-
+    	| firstResult               | Special Edition Harry Potter Paperback Box Set	|
+    	| chamberOfSecretsBook2     | visible             								|
+ 
   Scenario: Click on  ChamberOfSecretsBook2, I can see details
-    Given I am ON "SearchResultsPage" 
-    And I CLICK "chamberOfSecretsBook2"
-    Then I should be ON "BookDetailPage"
+	Given I am ON "SearchResultsPage" 
+   	And I CLICK "chamberOfSecretsBook2"
+   	Then I should be ON "BookDetailPage"
+   	
 
-  Scenario: check expects on PDP
+  Scenario: check expects on Book detail page
     Given I am ON "BookDetailPage" 
     Then I should EXPECT    
-    | kindlePrice           | $7.99           	|
-    | hardCoverPrice     	| $13.94            |    
-    | defaultPrice     		| $8.98            	|       
-
+    | kindlePrice           	| $7.99           	|
+    | hardcoverPrice     		| $13.94            |    
+    | paperbackPrice     		| $9.79            	|
+    
   Scenario: Add to cart
-    Given I am ON "BookDetailPage""
-    And I click "hardCoverPrice"  
-    And I wait 5 seconds  
+    Given I am ON "BookDetailPage"
+    And I click "hardcover"  
     And I click "addToCart"      
-    Then I should be ON "PreCheckoutPage"
+    Then I should be ON "PreCheckoutPage" 
 
   Scenario: on pre-checkout page, I check all my items
     Given I am ON "PreCheckoutPage"
     Then I should EXPECT
       | orderSubtotal          	| 13.94 	|
-      | cartCount          		| 1 		|      
-      
-  Scenario: now proceed to checkout
+      | cartCount          		| 1 		|     
+       
+  Scenario: proceed to checkout
     Given I am ON "PreCheckoutPage"
 	And I click "proceedToCheckout"
 	Then I should be ON "SignInPage"
-	           
+                    			

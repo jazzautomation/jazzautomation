@@ -55,7 +55,7 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 		      	
 	Scenario: Go to Checkout page
 		Given I am ON "CartPage"
-		And I CLICK "delivery"		
+		And I CLICK "shipping"		
 		And I WAIT 2 seconds		
 		And I CLICK "checkout"
 		And I WAIT 5 seconds

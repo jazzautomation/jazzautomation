@@ -1,0 +1,15 @@
+{
+    "pageName":"ProductDetailPage",
+    "title": "",
+    "urlExtension": "store.nike.com/us/en_us/",
+    "keyDomElementName": "addToCartButton",
+    "domElements" :
+    {
+
+        "addToCartButton" :
+        {
+            "jquery" : "$('div.exp-pdp-save-container button.add-to-cart.nsg-button--nike-orange')"
+        }
+    }
+}
+
