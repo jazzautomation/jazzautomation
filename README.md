@@ -10,7 +10,7 @@ Please visit http://www.jazzautomation.com/
 
 How do I run the examples?
 
-	To run the examples, you will need to setup the environment by specifying the configuration to be loaded and the test features to be executed: 
+	To run the examples, you will need to have java 7 installed and setup the environment by specifying the configuration to be loaded and the test features to be executed: 
 	
 		Windows:
 
