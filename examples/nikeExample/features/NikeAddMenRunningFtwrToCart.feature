@@ -1,15 +1,13 @@
 Feature: Go to the Nike consumer web site, add a product to cart and all the way to checkout.
-  This looks good!
 
   Background: set up for the test
-  hope this work
     Given the following settings:
       | url				| http://www.nike.com	    |
       | platform		| OSX 10.8     				|
       | browser        	| chrome 					|
       | browser version	| 28   						|
 
-  Scenario: Go to the nike portal page a verify the required elements.
+  Scenario: Go to the nike portal page and verify the required elements.
     Given I am ON "NikeHomePage"
     Then I should EXPECT
       | menCategory              | visible              |
@@ -17,16 +15,16 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
       | mainMenu                 | visible              |
 
 
-  Scenario: Go to the men shoes page.
+  Scenario: Go to the mens shoes page.
     Given I am ON "NikeHomePage"
     And I CLICK "menCategory"
     And I CLICK "menShoes"
     Then I should be ON "MensShoes"
 
-  Scenario: Validate the total product count and other key elements
+  Scenario: Validate the total product count and other key elements for the page.
     Given I am ON "MensShoes"
     Then I should EXPECT
-      | productCount            |  691 Products         |
+      | productCount            |  692 Products         |
       | runningFacet            |  Running              |
       | basketballFacet         |  Basketball           |
       | jordanFacet             |  Jordan               |

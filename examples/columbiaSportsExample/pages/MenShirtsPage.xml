@@ -8,7 +8,7 @@
 		<entry>
 			<key>shirtsTitle</key>
 			<value>
-				<jquery>$('#results-col img[alt="shirts"]')</jquery>
+				<jquery>$('.bannerLarge')</jquery>
 			</value>
 		</entry>
 		<entry>

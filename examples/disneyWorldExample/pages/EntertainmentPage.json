@@ -1,0 +1,14 @@
+{
+    "pageName":"EntertainmentPage",
+    "title": "Entertainment | Walt Disney World Resort",
+    "urlExtension": "disneyworld.disney.go.com/entertainment",
+    "keyDomElementName": "header",
+    "domElements" :
+    {
+        "header" :
+        {
+        "jquery" : "$('div.finderHeaderContainer header.pageHeaderContainer.subflowHeader hgroup h2')"
+        }
+    }
+}
+

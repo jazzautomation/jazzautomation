@@ -1,4 +1,5 @@
-Feature: Go to the Columbia Sportswear web site, search for a product, review product details, add a product to cart, and then go through guest checkout.
+Feature: Go to the Columbia Sportswear web site, search for a product, review product
+  details, add a product to cart, and then go through guest checkout.
 
   Background: set up for the test
   hope this work

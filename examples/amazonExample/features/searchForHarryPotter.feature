@@ -21,6 +21,7 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
     And I enter
     	| searchField                 | Harry Potter                 | 
     And I click "go"   
+    And I wait 5 seconds
     Then I should be ON "SearchResultsPage"
 
 
@@ -41,7 +42,7 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
     Then I should EXPECT    
     | kindlePrice           	| $7.99           	|
     | hardcoverPrice     		| $13.94            |    
-    | paperbackPrice     		| $9.79            	|
+    | paperbackPrice     		| $8.56            	|
     
   Scenario: Add to cart
     Given I am ON "BookDetailPage"

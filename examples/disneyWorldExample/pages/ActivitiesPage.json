@@ -1,0 +1,75 @@
+{
+    "pageName":"ActivitiesPage",
+    "title": "Explore Walt Disney World Resort | Walt Disney World Resort",
+    "urlExtension": "activities",
+    "keyDomElementName": "mainLogo",
+    "domElements" :
+    {
+        "mainLogo" :
+        {
+            "jquery" : "$('#finderHeaderDefaultTitle div.finderPageHeaderLogo.waltDisneyWorldLogo')"
+        },
+        "allParksMenu" :
+        {
+            "jquery": "$('div.location.finderElementSeparatorSmall.separatorRight span.rich-select specialDropDown div.rich-select-button span[\"All Parks & Resorts\"]')"
+        },
+        "mapButton" :
+        {
+            "jquery" : "$('ul.buttonSet li:eq(1) span.button.last a[title=\"Map - Tab\"]')"
+        },
+        "mapContainer" :
+        {
+            "jquery" : "$('#mapplicationContainer')"
+        },
+        "listButton" :
+        {
+            "jquery" : "$('ul.buttonSet li:eq(0) span.button.first a[title=\"List - Tab\"]')"
+        },
+        "pageCarousel" :
+        {
+            "jquery" : "$('div.carouselPageContainer')"
+        },
+        "pageCarouselWhatsNew" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg1 div.item.imgBox div.imgDetail:eq(0) span')"
+        },
+        "pageCarouselDisneyPrincesses" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg1 div.item.imgBox div.imgDetail:eq(1) span')"
+        },
+        "pageCarouselSpecialEvents" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg1 div.item.imgBox div.imgDetail:eq(2) span')"
+        },
+        "pageCarouselCharacterDining" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg1 div.item.imgBox div.imgDetail:eq(3) span')"
+        },
+        "carouselPageTwo" :
+        {
+            "jquery" : "$('div.carouselContainer button.carouselNextButton.carouselButton')"
+        }
+        ,
+        "pageCarouselSpecialExperiences" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg2 div.item.imgBox div.imgDetail:eq(0) span')"
+        },
+        "pageCarouselFireworksParades" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg2 div.item.imgBox div.imgDetail:eq(1) span')"
+        },
+        "pageCarouselCharacterGreetings" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg2 div.item.imgBox div.imgDetail:eq(2) span')"
+        },
+        "pageCarouselDiningEvents" :
+        {
+            "jquery" : "$('div.carouselContainer div.page.pg2 div.item.imgBox div.imgDetail:eq(3) span')"
+        },
+        "surveryModal" :
+        {
+            "jquery" : "$('#modalUIPlusButtonPane div.modalUIPlusButtons span.pillBase.secondary.closeModalWindow')"
+        }
+
+    }
+}

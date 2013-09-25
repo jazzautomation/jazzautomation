@@ -7,11 +7,11 @@
     {
         "firstResult" :
         {
-            "jquery": "$('#result_0 div.data h3.title a.title')"
+            "jquery": "$('#result_1 div.data h3.title a.title')"
         },
         "chamberOfSecretsBook2" :
         {
-        	"jquery" : "$('a:contains(\"Harry Potter and the Chamber of Secrets (Book 2)\")')"
+        	"jquery" : "$('a:contains(\"Harry Potter And The Chamber Of Secrets\")')"
         }
  
     }

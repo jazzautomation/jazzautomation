@@ -1,8 +1,7 @@
-Feature: Go to bestbuy web site, add a product to cart and all the way to checkout.
-	 This looks good!
+Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a guest.
+
 	
 	Background: set up for the test
-			hope this work
 		Given the following settings:
 		      	| url				| http://www.bestbuy.com	|
       			| platform			| VISTA       				|
@@ -18,13 +17,13 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
       			| cartItems			| 0 Items   			|
 
 
-	Scenario: Go to Tv page
+	Scenario: Go to the Tv page
 		Given I am ON "BestBuyPortalPage"
 		And I CLICK "productMenu"
 		And I CLICK "tvHomeTheaterSubMenu"
 		Then I should be ON "TvHomeTheaterPage"
 					
-	Scenario: Go to Tv and Video Page
+	Scenario: Go to the Tv and Video Page
 		Given I am ON "TvHomeTheaterPage"
 		And I CLICK "televisions"
 		Then I should be ON "TvVideoPage"

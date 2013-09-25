@@ -1,0 +1,25 @@
+{
+    "pageName":"ActivitiesMapPage",
+    "title": "Maps | Walt Disney World Resort",
+    "urlExtension": "https://disneyworld.disney.go.com/maps/",
+    "keyDomElementName": "header",
+    "domElements" :
+    {
+        "mapButton" :
+        {
+            "jquery" : "$('ul.buttonSet li:eq(1) span.button.last a[title=\"Map - Tab\"]')"
+        },
+        "mapContainer" :
+        {
+            "jquery" : "$('#mapplicationContainer')"
+        },
+        "listButton" :
+        {
+            "jquery" : "$('ul.buttonSet li:eq(0) span.button.first a[title=\"List - Tab\"]')"
+        },
+        "header" :
+        {
+            "jquery" : "$('div.finderHeaderContainer header.pageHeaderContainer.subflowHeader hgroup h2')"
+        }
+    }
+}
