@@ -4,8 +4,8 @@ Feature: Disney regression testing
     Given the following settings:
       | url				| https://disneyworld.disney.go.com	    |
       | platform		| OSX 10.8     				|
-      | browser        	| chrome 					|
-      | browser version	| 28   						|
+      | browser        	| firefox 					|
+      | browser version	| 23   						|
 
   Scenario: Go to the Disney home page and verify the required elements.
     Given I am ON "HomePage"
