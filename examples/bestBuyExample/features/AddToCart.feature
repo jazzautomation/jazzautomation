@@ -15,8 +15,7 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 		      	| productMenu		| visible				|
       			| giftMenu			| visible       		|
       			| cart            	| visible 				|
-      			| cartItems			| 0 Items   			|
-
+      			| cartItems			| 0           			|
 
 	Scenario: Go to Tv page
 		Given I am ON "BestBuyPortalPage"
@@ -29,12 +28,11 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 		And I CLICK "televisions"
 		Then I should be ON "TvVideoPage"
 
-	
 	Scenario: Go to Product Tv page
 		Given I am ON "TvVideoPage"
-		And I CLICK "40To59TV"
-		Then I should be ON "ProductTvPage"
-
+		And I CLICK "shopTVsBySize"
+		And I WAIT 1 seconds
+		And I CLICK "46To59TV"
 
 	Scenario: Add a TV to cart
 		Given I am on ProductTvPage
@@ -51,13 +49,14 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 	Scenario: Check my cart, I should see one product in my cart
 		Given I am ON "CartPage"
 		Then I should EXPECT
-		      	| cartItems		| 2 Items			|
+		      	| cartItems		| 1			|
 		      	
 	Scenario: Go to Checkout page
 		Given I am ON "CartPage"
-		And I CLICK "shipping"
+		And I Click "delivery"
 		And I WAIT 5 seconds		
 		And I CLICK "checkout"
+		And I WAIT 2 seconds		
 		Then I should be ON "CheckoutPage" 
 	
 	Scenario: Checkout As a guest
@@ -65,8 +64,3 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 		And I CLICK "checkoutAsGuest"
 		Then I should be ON "BillingAddressPage"
 		
-	Scenario: Enter First name and last name
-		Given I am ON "BillingAddressPage"
-		And I ENTER
-			| firstName	| Jazz			|
-			| lastName	| Automation 	|	

@@ -24,11 +24,11 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
   Scenario: Validate the total product count and other key elements for the page.
     Given I am ON "MensShoes"
     Then I should EXPECT
-      | productCount            |  692 Products         |
+      | productCount            |  791 Products         |
       | runningFacet            |  Running              |
       | basketballFacet         |  Basketball           |
-      | jordanFacet             |  Jordan               |
-
+      | jordanFacet             |  Jordan              |
+#$action=com.dedrick.action.GetJordanFacet
   Scenario: Click on Nike Free 5.0
     Given I am ON "MensShoes"
     And I CLICK "nikeFreeImg"

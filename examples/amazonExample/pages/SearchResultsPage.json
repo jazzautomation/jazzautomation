@@ -2,14 +2,13 @@
     "pageName":"SearchResultsPage",
     "title": "",
     "urlExtension": "www.amazon.com",
-	"keyDomElementName": "firstResult",    
     "domElements" :
     {
         "firstResult" :
         {
-            "jquery": "$('#result_1 div.data h3.title a.title')"
+            "jquery": "$('#result_1 .data h3.title a.title')"
         },
-        "chamberOfSecretsBook2" :
+        "chamberOfSecretsBook" :
         {
         	"jquery" : "$('a:contains(\"Harry Potter And The Chamber Of Secrets\")')"
         }

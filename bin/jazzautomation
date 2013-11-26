@@ -6,7 +6,7 @@
 ##
 ##############################################################################
 
-# Add default JVM options here. You can also use JAVA_OPTS and JAZZAUTOMATION_SOURCE_OPTS to pass JVM options to this script.
+# Add default JVM options here. You can also use JAVA_OPTS and JAZZAUTOMATION_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
 
 APP_NAME="jazzautomation"
@@ -65,7 +65,7 @@ cd "`dirname \"$PRG\"`/.." >&-
 APP_HOME="`pwd -P`"
 cd "$SAVED" >&-
 
-CLASSPATH=$APP_HOME/lib/jazzautomation.jar:$APP_HOME/lib/selenium-java-2.34.0.jar:$APP_HOME/lib/selenium-client-factory-1.2.jar:$APP_HOME/lib/jackson-mapper-asl-1.9.3.jar:$APP_HOME/lib/logback-core-1.0.13.jar:$APP_HOME/lib/logback-classic-1.0.13.jar:$APP_HOME/lib/commons-exec-1.1.jar:$APP_HOME/lib/jna-3.4.0.jar:$APP_HOME/lib/platform-3.4.0.jar:$APP_HOME/lib/json-20080701.jar:$APP_HOME/lib/guava-14.0.jar:$APP_HOME/lib/selenium-api-2.34.0.jar:$APP_HOME/lib/cglib-nodep-2.1_3.jar:$APP_HOME/lib/commons-codec-1.7.jar:$APP_HOME/lib/commons-logging-1.1.1.jar:$APP_HOME/lib/httpcore-4.2.2.jar:$APP_HOME/lib/httpclient-4.2.3.jar:$APP_HOME/lib/selenium-remote-driver-2.34.0.jar:$APP_HOME/lib/selenium-android-driver-2.34.0.jar:$APP_HOME/lib/selenium-chrome-driver-2.34.0.jar:$APP_HOME/lib/xml-apis-1.4.01.jar:$APP_HOME/lib/serializer-2.7.1.jar:$APP_HOME/lib/xalan-2.7.1.jar:$APP_HOME/lib/commons-collections-3.2.1.jar:$APP_HOME/lib/commons-lang3-3.1.jar:$APP_HOME/lib/httpmime-4.2.3.jar:$APP_HOME/lib/htmlunit-core-js-2.12.jar:$APP_HOME/lib/xercesImpl-2.10.0.jar:$APP_HOME/lib/nekohtml-1.9.18.jar:$APP_HOME/lib/sac-1.3.jar:$APP_HOME/lib/cssparser-0.9.9.jar:$APP_HOME/lib/jetty-util-8.1.9.v20130131.jar:$APP_HOME/lib/jetty-io-8.1.9.v20130131.jar:$APP_HOME/lib/jetty-http-8.1.9.v20130131.jar:$APP_HOME/lib/jetty-websocket-8.1.9.v20130131.jar:$APP_HOME/lib/commons-io-2.4.jar:$APP_HOME/lib/htmlunit-2.12.jar:$APP_HOME/lib/selenium-htmlunit-driver-2.34.0.jar:$APP_HOME/lib/selenium-firefox-driver-2.34.0.jar:$APP_HOME/lib/selenium-ie-driver-2.34.0.jar:$APP_HOME/lib/selenium-iphone-driver-2.34.0.jar:$APP_HOME/lib/netty-3.5.2.Final.jar:$APP_HOME/lib/webbit-0.4.14.jar:$APP_HOME/lib/selenium-safari-driver-2.34.0.jar:$APP_HOME/lib/selenium-support-2.34.0.jar:$APP_HOME/lib/selenium-java-client-driver-1.0.2.jar:$APP_HOME/lib/jackson-core-asl-1.9.3.jar:$APP_HOME/lib/slf4j-api-1.7.5.jar
+CLASSPATH=$APP_HOME/lib/jazzautomation.jar:$APP_HOME/lib/jfxrt.jar:$APP_HOME/lib/selenium-java-2.34.0.jar:$APP_HOME/lib/selenium-client-factory-1.2.jar:$APP_HOME/lib/jackson-mapper-asl-1.9.3.jar:$APP_HOME/lib/logback-core-1.0.13.jar:$APP_HOME/lib/logback-classic-1.0.13.jar:$APP_HOME/lib/groovy-2.2.0-rc-3.jar:$APP_HOME/lib/threetenbp-0.8.1.jar:$APP_HOME/lib/commons-vfs2-2.0.jar:$APP_HOME/lib/forms_rt-12.0.jar:$APP_HOME/lib/selenium-android-driver-2.34.0.jar:$APP_HOME/lib/selenium-chrome-driver-2.34.0.jar:$APP_HOME/lib/selenium-htmlunit-driver-2.34.0.jar:$APP_HOME/lib/selenium-firefox-driver-2.34.0.jar:$APP_HOME/lib/selenium-ie-driver-2.34.0.jar:$APP_HOME/lib/selenium-iphone-driver-2.34.0.jar:$APP_HOME/lib/selenium-safari-driver-2.34.0.jar:$APP_HOME/lib/selenium-support-2.34.0.jar:$APP_HOME/lib/webbit-0.4.14.jar:$APP_HOME/lib/selenium-java-client-driver-1.0.2.jar:$APP_HOME/lib/jackson-core-asl-1.9.3.jar:$APP_HOME/lib/slf4j-api-1.7.5.jar:$APP_HOME/lib/asm-tree-4.1.jar:$APP_HOME/lib/antlr-2.7.7.jar:$APP_HOME/lib/asm-util-4.1.jar:$APP_HOME/lib/asm-commons-4.1.jar:$APP_HOME/lib/asm-4.1.jar:$APP_HOME/lib/asm-analysis-4.1.jar:$APP_HOME/lib/commons-logging-1.1.1.jar:$APP_HOME/lib/maven-scm-api-1.4.jar:$APP_HOME/lib/maven-scm-provider-svnexe-1.4.jar:$APP_HOME/lib/selenium-remote-driver-2.34.0.jar:$APP_HOME/lib/htmlunit-2.12.jar:$APP_HOME/lib/commons-exec-1.1.jar:$APP_HOME/lib/jna-3.4.0.jar:$APP_HOME/lib/platform-3.4.0.jar:$APP_HOME/lib/selenium-api-2.34.0.jar:$APP_HOME/lib/netty-3.5.2.Final.jar:$APP_HOME/lib/plexus-utils-1.5.6.jar:$APP_HOME/lib/maven-scm-provider-svn-commons-1.4.jar:$APP_HOME/lib/regexp-1.3.jar:$APP_HOME/lib/cglib-nodep-2.1_3.jar:$APP_HOME/lib/json-20080701.jar:$APP_HOME/lib/guava-14.0.jar:$APP_HOME/lib/xalan-2.7.1.jar:$APP_HOME/lib/commons-collections-3.2.1.jar:$APP_HOME/lib/commons-lang3-3.1.jar:$APP_HOME/lib/httpmime-4.2.3.jar:$APP_HOME/lib/commons-codec-1.7.jar:$APP_HOME/lib/htmlunit-core-js-2.12.jar:$APP_HOME/lib/xercesImpl-2.10.0.jar:$APP_HOME/lib/nekohtml-1.9.18.jar:$APP_HOME/lib/cssparser-0.9.9.jar:$APP_HOME/lib/jetty-websocket-8.1.9.v20130131.jar:$APP_HOME/lib/serializer-2.7.1.jar:$APP_HOME/lib/httpcore-4.2.2.jar:$APP_HOME/lib/xml-apis-1.4.01.jar:$APP_HOME/lib/sac-1.3.jar:$APP_HOME/lib/jetty-util-8.1.9.v20130131.jar:$APP_HOME/lib/jetty-io-8.1.9.v20130131.jar:$APP_HOME/lib/jetty-http-8.1.9.v20130131.jar:$APP_HOME/lib/httpclient-4.2.3.jar:$APP_HOME/lib/commons-io-2.4.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
@@ -154,11 +154,11 @@ if $cygwin ; then
     esac
 fi
 
-# Split up the JVM_OPTS And JAZZAUTOMATION_SOURCE_OPTS values into an array, following the shell quoting and substitution rules
+# Split up the JVM_OPTS And JAZZAUTOMATION_OPTS values into an array, following the shell quoting and substitution rules
 function splitJvmOpts() {
     JVM_OPTS=("$@")
 }
-eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $JAZZAUTOMATION_SOURCE_OPTS
+eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $JAZZAUTOMATION_OPTS
 
 
 exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" com.jazzautomation.AutomationDriver "$@"

@@ -6,7 +6,7 @@ Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a gue
 		      	| url				| http://www.bestbuy.com	|
       			| platform			| VISTA       				|
       			| browser        	| firefox 					|	
-      			| browser version	| 21   						|
+      			| browser version	| 22   						|
 	
 	Scenario: Check productMenu is visible and cart items is 0 after open the web page
 		Given I am ON "BestBuyPortalPage"
@@ -14,8 +14,7 @@ Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a gue
 		      	| productMenu		| visible				|
       			| giftMenu			| visible       		|
       			| cart            	| visible 				|
-      			| cartItems			| 0 Items   			|
-
+      			| cartItems			| 0           			|
 
 	Scenario: Go to the Tv page
 		Given I am ON "BestBuyPortalPage"
@@ -31,9 +30,9 @@ Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a gue
 	
 	Scenario: Go to Product Tv page
 		Given I am ON "TvVideoPage"
-		And I CLICK "40To59TV"
-		Then I should be ON "ProductTvPage"
-
+		And I CLICK "shopTVsBySize"
+		And I WAIT 1 seconds
+		And I CLICK "46To59TV"
 
 	Scenario: Add a TV to cart
 		Given I am on ProductTvPage
@@ -50,14 +49,14 @@ Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a gue
 	Scenario: Check my cart, I should see one product in my cart
 		Given I am ON "CartPage"
 		Then I should EXPECT
-		      	| cartItems		| 1 Items			|
+		      	| cartItems		| 1			|
 		      	
 	Scenario: Go to Checkout page
 		Given I am ON "CartPage"
-		And I CLICK "shipping"		
+		And I Click "delivery"
+		And I WAIT 5 seconds		
+		And I CLICK "checkout"		
 		And I WAIT 2 seconds		
-		And I CLICK "checkout"
-		And I WAIT 5 seconds
 		Then I should be ON "CheckoutPage" 
 	
 	Scenario: Checkout As a guest
@@ -65,14 +64,3 @@ Feature: Go to bestbuy web site, add a TV to the cart and then checkout as a gue
 		And I CLICK "checkoutAsGuest"
 		Then I should be ON "BillingAddressPage"
 		
-	Scenario: (optional) Am I on CartPage Page doing optional stuffs? 
-		Given I am ON "CartPage"
-		And I WAIT 5 seconds
-		Then I should be ON "CheckoutPage" 
-		
-	Scenario: Enter First name and last name
-		Given I am ON "BillingAddressPage"
-		And I ENTER
-			| firstName	| Jazz			|
-			| lastName	| Automation 	|
-				

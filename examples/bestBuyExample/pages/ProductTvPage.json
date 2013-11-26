@@ -1,12 +1,12 @@
 {
 	"pageName":"ProductTvPage",
-	"title": "40\" - 59\": TVs - Best Buy",
+	"title": "",
 	"urlExtension": "site/olstemplatemapper.jsp",
 	"domElements" :
 		{
 			"secondAddToCart" :
 				{
-					"jquery": "$('img.bdt-addToCart.buy')",
+					"jquery": "$('.bdt-addToCart')",
 					"index": 1					
 				}
 		}

@@ -1,18 +1,22 @@
 {
 	"pageName":"CartPage",
-	"title": "Cart",
+	"title": "",
 	"urlExtension": "site/olspage.jsp",
-	"keyDomElementName": "checkout",	
+	"keyDomElementName": "continueShopping",	
 	"domElements" :
 		{
-			"checkout" :
+			"continueShopping" :
 				{
-					"jquery": "$('a.large-action-button.checkout.btn')"			
+					"jquery": "$('.continue-shopping-link')"			
 				},
 				
-			"shipping" :
+			"checkout" :
 				{
-					"jquery": "$('input.fulfillment-type-radio[value=\"SHIPPING\"]')"			
+					"jquery": "$('a.checkout')"			
+				},
+			"delivery" :
+				{
+					"jquery": "$('.fulfillment-type-radio[value=\"DELIVERY\"]')"			
 				}
 		}		
 }

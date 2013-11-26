@@ -1,29 +1,29 @@
 {
 	"pageName":"BestBuyPortalPage",
-	"title": "Best Buy: Making Technology Work for You",
+	"title": "Best Buy: Your Ultimate Holiday Showroom",
 	"urlExtension": "www.bestbuy.com",
 	"keyDomElementName": "productMenu",
 	"domElements" :
 		{
 			"productMenu" :
 				{
-					"jquery": "$('#nav li.nav-pro a[data-lid=\"ubr_prd\"]')"					
+					"jquery": "$('[data-lid=\"ubr_prd\"]')"					
 				},
 			"serviceMenu" :
 				{
-					"jquery": "$('#nav li.nav-pro a[data-lid=\"ubr_prd\"]')"
+					"jquery": "$('[data-lid=\"nav-svc\"]')"
 				},
 			"giftMenu" :
 				{
-					"jquery": "$('#nav li a[data-lid=\"ubr_shp\"]')"				
+					"jquery": "$('[data-lid=\"ubr_gft\"]')"				
 				},
 			"tvHomeTheaterSubMenu" :
 				{
-					"jquery": "$('#nav a[data-lid=\"ubr_tvv\"]')"
+					"jquery": "$('[data-lid=\"ubr_tv_tvv\"]')"
 				},
 			"tvLink" :
 				{
-					"jquery": "$('#nav a[data-lid=\"ubr_tv_tvs\"]')"				
+					"jquery": "$('[data-lid=\"ubr_tv_tvs\"]')"				
 				},
 			"cart"	:
 				{
@@ -31,7 +31,7 @@
 				},
 			"cartItems"	:
 				{
-					"jquery":	"$('#cart a span strong')"				
+					"jquery":	"$('.cart-items')"				
 				}
 		}
 }

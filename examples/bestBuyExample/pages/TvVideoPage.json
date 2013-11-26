@@ -4,9 +4,15 @@
 	"urlExtension": "TV-Video/Televisions/",
 	"domElements" :
 		{
-			"40To59TV" :
+			
+			"shopTVsBySize" :
 				{
-					"jquery": "$('div.primary-panel li a:contains(\"40\"):contains(\"-59\"):contains(\"TVs\")')"					
+					"jquery": "$('a:contains(\"Shop TVs by Size\")')"					
+				},
+								
+			"46To59TV" :
+				{
+					"jquery": "$('a:contains(\"46\"):contains(\"-59\"):contains(\"TVs\")')"					
 				}
 		}
 }
