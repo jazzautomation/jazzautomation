@@ -1,14 +1,14 @@
 {
-	"pageName":"TvHomeTheaterPage",
-	"title": "",
-	"urlExtension": "Electronics/TV-Video",
-	"domElements" :
-		{
-			"televisions" :
-				{
-					"jquery": "$('#primary dl dt a[name=\"&lid=tvv_dpt_televisions\"]')"					
-				}
-		}
+  "pageName":"TvHomeTheaterPage",
+  "title": "",
+  "urlExtension": "Electronics/TV-Video",
+  "domElements" :
+    {
+      "televisions" :
+        {
+          "jquery": "$('#primary dl dt a[name=\"&lid=tvv_dpt_televisions\"]')"          
+        }
+    }
 }
-				
-				
+        
+        

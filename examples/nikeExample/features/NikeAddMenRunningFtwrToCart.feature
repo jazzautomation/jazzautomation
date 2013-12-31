@@ -4,8 +4,8 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
     Given the following settings:
       | url				| http://www.nike.com	    |
       | platform		| OSX 10.8     				|
-      | browser        	| chrome 					|
-      | browser version	| 28   						|
+      | browser        	| firefox 					|
+      | browser version	| 28   						|                     |
 
   Scenario: Go to the nike portal page and verify the required elements.
     Given I am ON "NikeHomePage"
@@ -27,7 +27,7 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
       | productCount            |  791 Products         |
       | runningFacet            |  Running              |
       | basketballFacet         |  Basketball           |
-      | jordanFacet             |  Jordan              |
+      | jordanFacet             |  Jordan               |
 #$action=com.dedrick.action.GetJordanFacet
   Scenario: Click on Nike Free 5.0
     Given I am ON "MensShoes"

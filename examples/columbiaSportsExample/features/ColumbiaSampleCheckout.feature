@@ -4,10 +4,10 @@ Feature: Go to the Columbia Sportswear web site, search for a product, review pr
   Background: set up for the test
   hope this work
     Given the following settings:
-      | url				    | http://www.columbia.com	|
-      | platform			| OSX 10.6     				|
-      | browser           	| firefox					|
-      | browser version	    | 21     					|
+      | url                    | http://www.columbia.com    |
+      | platform               | OSX 10.6                   |
+      | browser                | firefox                    |
+      | browser version        | 21                         |
 
 
   Scenario: (Optional) Go to the Country/Language page
@@ -53,7 +53,7 @@ Feature: Go to the Columbia Sportswear web site, search for a product, review pr
 
   Scenario: Continue checking out from the Shopping Cart Page
     Given I am ON "ShoppingCartPage"
-    And I CLICK "continueToCheckOut"
+    And I (optional) CLICK "continueToCheckOut"
     Then I should be ON "CheckoutPage"
 
   Scenario: Check out as a guest

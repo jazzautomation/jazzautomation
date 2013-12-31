@@ -1,8 +1,8 @@
 {
     "pageName":"HomePage",
-    "title": "Walt Disney World Resort in Orlando, Florida",
+    "title": "",
     "urlExtension": "disneyworld.disney.go.com",
-    "keyDomElementName": "quickQuoteBar",
+    "keyDomElementName": "thingsToDoLink",
     "domElements" :
     {
         "quickQuoteBar" :
@@ -11,7 +11,7 @@
         },
         "thingsToDoLink" :
         {
-            "jquery" : "$('div.gnbLinkContainer div.gnbCategory.gnbThingsToDo a.gnbCategoryTitle')"
+            "jquery" : "$('.gnbThingsToDo .gnbCategoryTitle')"
 
         },
         "findPricesButton" :

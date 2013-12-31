@@ -2,10 +2,10 @@ Feature: Disney regression testing
 
   Background: set up for the test
     Given the following settings:
-      | url				| https://disneyworld.disney.go.com	    |
-      | platform		| OSX 10.8     				|
-      | browser        	| firefox 					|
-      | browser version	| 23   						|
+      | url                | https://disneyworld.disney.go.com   |
+      | platform           | OSX 10.8                            |
+      | browser            | firefox                             |
+      | browser version    | 23                                  |
 
   Scenario: Go to the Disney home page and verify the required elements.
     Given I am ON "HomePage"

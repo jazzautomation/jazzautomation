@@ -1,19 +1,19 @@
 {
-	"pageName":"AddToCartPopupPage",
-	"title": "",
-	"urlExtension": "site/olstemplatemapper.jsp",
-	"keyDomElementName": "addToCartPopupTitle",
-	"domElements" :
-		{
-			"addToCartPopupTitle" :
-				{
-					"jquery": "$('.css-lightboxHeader .css-title')"				
-				},
-			"goToYourCart" :
-				{
-					"jquery": "$('.css-btnGoToCart')"					
-				}
-		}
+  "pageName":"AddToCartPopupPage",
+  "title": "",
+  "urlExtension": "site/olstemplatemapper.jsp",
+  "keyDomElementName": "addToCartPopupTitle",
+  "domElements" :
+    {
+      "addToCartPopupTitle" :
+        {
+          "jquery": "$('.css-lightboxHeader .css-title')"        
+        },
+      "goToYourCart" :
+        {
+          "jquery": "$('.css-btnGoToCart')"          
+        }
+    }
 }
-				
-				
+        
+        

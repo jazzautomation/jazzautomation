@@ -2,13 +2,12 @@
     "pageName":"SignInPage",
     "title": "",
     "urlExtension": "www.amazon.com",
-	"keyDomElementName": "signInLable",    
+    "keyDomElementName": "signInLable",    
     "domElements" :
     {
-        "signInLable" :
+      "signInLable" :
         {
             "jquery": "$('#ap_signin1a_pagelet_title h1:contains(\"Sign In\")')"
         }
-   
     }
 }

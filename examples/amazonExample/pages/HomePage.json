@@ -2,28 +2,28 @@
     "pageName":"HomePage",
     "title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",    
     "urlExtension": "www.amazon.com",
-	"keyDomElementName": "searchField",    
+    "keyDomElementName": "searchField",    
     "domElements" :
     {
-        "cartCount" :
+      "cartCount" :
         {
             "id": "nav-cart-count"
         },
-        "allButton" :
+      "allButton" :
         {
             "id" : "nav-search-in"
 
         },                
-        "selectCategory" :
+      "selectCategory" :
         {
             "id" : "searchDropdownBox"
 
         },
-        "searchField" :
+      "searchField" :
         {
             "id" : "twotabsearchtextbox"
         },
-        "go" :
+      "go" :
         {
             "cssSelector" : ".nav-submit-input"
         }

@@ -1,15 +1,15 @@
 {
-	"pageName":"ProductTvPage",
-	"title": "",
-	"urlExtension": "site/olstemplatemapper.jsp",
-	"domElements" :
-		{
-			"secondAddToCart" :
-				{
-					"jquery": "$('.bdt-addToCart')",
-					"index": 1					
-				}
-		}
+  "pageName":"ProductTvPage",
+  "title": "",
+  "urlExtension": "site/olstemplatemapper.jsp",
+  "domElements" :
+    {
+      "secondAddToCart" :
+        {
+          "jquery": "$('.bdt-addToCart')",
+          "index": 1          
+        }
+    }
 }
-				
-				
+        
+        

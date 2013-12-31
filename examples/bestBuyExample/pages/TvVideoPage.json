@@ -1,20 +1,19 @@
 {
-	"pageName":"TvVideoPage",
-	"title": "",
-	"urlExtension": "TV-Video/Televisions/",
-	"domElements" :
-		{
-			
-			"shopTVsBySize" :
-				{
-					"jquery": "$('a:contains(\"Shop TVs by Size\")')"					
-				},
-								
-			"46To59TV" :
-				{
-					"jquery": "$('a:contains(\"46\"):contains(\"-59\"):contains(\"TVs\")')"					
-				}
-		}
+  "pageName":"TvVideoPage",
+  "title": "",
+  "urlExtension": "TV-Video/Televisions/",
+  "domElements" :
+    {
+      "shopTVsBySize" :
+        {
+          "jquery": "$('a:contains(\"Shop TVs by Size\")')"          
+        },
+                
+      "46To59TV" :
+        {
+          "jquery": "$('a:contains(\"46\"):contains(\"-59\"):contains(\"TVs\")')"          
+        }
+    }
 }
-				
-				
+        
+        

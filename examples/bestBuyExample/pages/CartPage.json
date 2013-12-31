@@ -1,24 +1,28 @@
 {
-	"pageName":"CartPage",
-	"title": "",
-	"urlExtension": "site/olspage.jsp",
-	"keyDomElementName": "continueShopping",	
-	"domElements" :
-		{
-			"continueShopping" :
-				{
-					"jquery": "$('.continue-shopping-link')"			
-				},
-				
-			"checkout" :
-				{
-					"jquery": "$('a.checkout')"			
-				},
-			"delivery" :
-				{
-					"jquery": "$('.fulfillment-type-radio[value=\"DELIVERY\"]')"			
-				}
-		}		
+  "pageName":"CartPage",
+  "title": "",
+  "urlExtension": "site/olspage.jsp",
+  "keyDomElementName": "continueShopping",  
+  "domElements" :
+    {
+      "continueShopping" :
+        {
+          "jquery": "$('.continue-shopping-link')"      
+        },
+        
+      "checkout" :
+        {
+          "jquery": "$('a.checkout')"      
+        },
+        "delivery" :
+        {
+            "jquery": "$('.fulfillment-type-radio[value=\"SHIPPING\"]')"
+        },
+        "noThanks" :
+        {
+            "jquery": "$('.no-thanks')"
+        }
+    }    
 }
 				
 				

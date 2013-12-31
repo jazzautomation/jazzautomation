@@ -2,14 +2,14 @@
     "pageName":"PreCheckoutPage",
     "title": "",
     "urlExtension": "www.amazon.com",
-	"keyDomElementName": "proceedToCheckout",    
+    "keyDomElementName": "proceedToCheckout",    
     "domElements" :
     {
-        "proceedToCheckout" :
+      "proceedToCheckout" :
         {
             "jquery": "$('a.s_checkout.hlb-checkout-button')"
         },
-        "orderSubtotal" :
+      "orderSubtotal" :
         {
             "jquery": "$('#hlb-cart-subtotal span')"
         }              

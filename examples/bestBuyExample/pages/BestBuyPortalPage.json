@@ -1,39 +1,39 @@
 {
-	"pageName":"BestBuyPortalPage",
-	"title": "Best Buy: Your Ultimate Holiday Showroom",
-	"urlExtension": "www.bestbuy.com",
-	"keyDomElementName": "productMenu",
-	"domElements" :
-		{
-			"productMenu" :
-				{
-					"jquery": "$('[data-lid=\"ubr_prd\"]')"					
-				},
-			"serviceMenu" :
-				{
-					"jquery": "$('[data-lid=\"nav-svc\"]')"
-				},
-			"giftMenu" :
-				{
-					"jquery": "$('[data-lid=\"ubr_gft\"]')"				
-				},
-			"tvHomeTheaterSubMenu" :
-				{
-					"jquery": "$('[data-lid=\"ubr_tv_tvv\"]')"
-				},
-			"tvLink" :
-				{
-					"jquery": "$('[data-lid=\"ubr_tv_tvs\"]')"				
-				},
-			"cart"	:
-				{
-					"jquery":	"$('#cart')"
-				},
-			"cartItems"	:
-				{
-					"jquery":	"$('.cart-items')"				
-				}
-		}
+  "pageName":"BestBuyPortalPage",
+  "title": "Best Buy: Your Ultimate Holiday Showroom",
+  "urlExtension": "www.bestbuy.com",
+  "keyDomElementName": "productMenu",
+  "domElements" :
+    {
+      "productMenu" :
+        {
+          "jquery": "$('[data-lid=\"ubr_prd\"]')"          
+        },
+      "serviceMenu" :
+        {
+          "jquery": "$('[data-lid=\"nav-svc\"]')"
+        },
+      "giftMenu" :
+        {
+          "jquery": "$('[data-lid=\"ubr_gft\"]')"        
+        },
+      "tvHomeTheaterSubMenu" :
+        {
+          "jquery": "$('[data-lid=\"ubr_tv_tvv\"]')"
+        },
+      "tvLink" :
+        {
+          "jquery": "$('[data-lid=\"ubr_tv_tvs\"]')"        
+        },
+      "cart"  :
+        {
+          "jquery":  "$('#cart')"
+        },
+      "cartItems"  :
+        {
+          "jquery":  "$('.cart-items')"        
+        }
+    }
 }
-				
-				
+        
+        
