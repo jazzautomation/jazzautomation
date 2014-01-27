@@ -31,7 +31,7 @@
         },
         "nikeFreeImg" :
         {
-            "jquery" : "$('div.gridwall-image-wrapper.sprite-sheet.sprite-index-0 img[alt=\"Nike Free Flyknit+\"]')"
+            "jquery" : "$('div.gridwall-image-wrapper.sprite-sheet.sprite-index-0 img[alt=\"Nike Free 5.0+\"]')"
         }
     }
 }

@@ -7,7 +7,7 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
             | url              | http://www.bestbuy.com  |
             | platform         | VISTA                   |
             | browser          | firefox                 |  
-            | browser version  | 22                      |
+            | browser version  | 26                      |
   
   Scenario: Check productMenu is visible and cart items is 0 after open the web page
     Given I am ON "BestBuyPortalPage"
@@ -53,11 +53,9 @@ Feature: Go to bestbuy web site, add a product to cart and all the way to checko
 		      	
 	Scenario: Go to Checkout page
 		Given I am ON "CartPage"
-		And I Click "delivery"
-		And I WAIT 5 seconds		
 		And I CLICK "checkout"
 		And I WAIT 2 seconds		
-		And ((Optional) I CLICK "noThanks"
+		And (Optional) I CLICK "noThanks"
 		And I WAIT 2 seconds		
 		Then I should be ON "CheckoutPage" 
 	

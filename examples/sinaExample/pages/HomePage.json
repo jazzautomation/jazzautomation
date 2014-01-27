@@ -1,0 +1,29 @@
+{
+    "pageName":"HomePage",
+    "title": "新浪首页",    
+    "urlExtension": "www.sina.com.cn",  
+    "domElements" :
+    {
+      "sinaLogo" :
+        {
+            "jquery": "$('.sina-logo')"
+        },
+      "firstLink" :
+        {
+            "jquery" : "$('.nav-mod-1 li a')[0]"
+
+        },                
+        
+      "searchField" :
+        {
+            "jquery" : "$('.inp-txt')"
+        },
+      "searchButton" :
+        {
+            "jquery" : "$('.submit-second-btn')"
+        }
+    }
+}
+
+
+

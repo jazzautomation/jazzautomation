@@ -1,0 +1,6 @@
+Major changes:
+	1. Fixed switchWindows defect.
+	2. Upgraded Selenium to vesion 2.38.0
+	3. Supported Chrome 29 and Firefox 26
+	4. Added README.txt for all examples
+	5. Added sinaExample to demonstrate internationalization and switchWindows capability.

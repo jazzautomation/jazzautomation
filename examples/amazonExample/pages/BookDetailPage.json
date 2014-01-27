@@ -13,13 +13,13 @@
         {
           "jquery" : "$('a.a-button-text span:contains(\"Kindle\")~span')"
         },
-        "libraryBinding" :
+        "hardcover" :
         {
           "jquery" : "$('a.a-button-text')[2]"
         },         
-        "libraryBindingPrice" :
+        "hardcoverPrice" :
         {
-          "jquery" : "$('a.a-button-text span:contains(\"Library Binding\")~span')"
+          "jquery" : "$('a.a-button-text span:contains(\"Hardcover\")~span')"
         },        
         "paperbackPrice" :
         {

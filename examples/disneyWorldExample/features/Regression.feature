@@ -72,4 +72,4 @@ Feature: Disney regression testing
   Scenario: Go to the fireworks page
     Given I am ON the "ActivitiesPage"
     And I CLICK "pageCarouselFireworksParades"
-    Then I should ne ON "EntertainmentPage"
+    Then I should be ON "EntertainmentPage"

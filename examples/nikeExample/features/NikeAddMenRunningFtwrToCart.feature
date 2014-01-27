@@ -2,10 +2,10 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
 
   Background: set up for the test
     Given the following settings:
-      | url				| http://www.nike.com	    |
-      | platform		| OSX 10.8     				|
-      | browser        	| firefox 					|
-      | browser version	| 28   						|                     |
+      | url              | http://www.nike.com   |
+      | platform         | OSX 10.8              |
+      | browser          | firefox               |
+      | browser version  | 28                    |
 
   Scenario: Go to the nike portal page and verify the required elements.
     Given I am ON "NikeHomePage"
@@ -14,6 +14,9 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
       | orderStatusButton        | visible              |
       | mainMenu                 | visible              |
 
+#
+#   one can comment right here
+#
 
   Scenario: Go to the mens shoes page.
     Given I am ON "NikeHomePage"
@@ -24,7 +27,7 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
   Scenario: Validate the total product count and other key elements for the page.
     Given I am ON "MensShoes"
     Then I should EXPECT
-      | productCount            |  791 Products         |
+      | productCount            |  810 Products         |
       | runningFacet            |  Running              |
       | basketballFacet         |  Basketball           |
       | jordanFacet             |  Jordan               |
@@ -37,7 +40,7 @@ Feature: Go to the Nike consumer web site, add a product to cart and all the way
   Scenario: Validate Nike Free values
     Given I am ON the "ProductDetailPage"
     Then I should EXPECT
-      | unitPrice               | $160                  |
+      | unitPrice               | $100                  |
 
   Scenario: Add 1 pair of size 12 shoes to the cart
     Given I am ON the "ProductDetailPage"

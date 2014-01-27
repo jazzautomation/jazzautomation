@@ -1,0 +1,22 @@
+{
+    "pageName":"HomePage",
+    "title": "My Homepage",
+    "urlExtension": "www.myurl.com",
+    "keyDomElementName": "mainMenu",
+    "domElements" :
+    {
+        "domElement1" :
+        {
+            "jquery": "$('div.home.facet.nav-section a[data-nav-tracking=\"home\"]')"
+        },
+        "domElement2" :
+        {
+            "jquery" : "$('div.shop-2.facet.nav-section.[data-subnav=\"men\"]')"
+
+        },
+        "domElement3" :
+        {
+            "xpath" : "//div[@class='item-pic']/a[1]"
+        }
+    }
+}

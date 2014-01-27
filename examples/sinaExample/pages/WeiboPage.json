@@ -1,0 +1,13 @@
+{
+    "pageName":"WeiboPage",
+    "title": "",
+    "urlExtension": "weibo",
+    "switchWindows": "true",
+    "domElements" :
+    {
+        "firstResult" :
+        {
+          "jquery": "$('.name_txt')"
+        }
+    }
+}

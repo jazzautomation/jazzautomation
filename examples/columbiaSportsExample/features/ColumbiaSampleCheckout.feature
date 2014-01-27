@@ -7,7 +7,7 @@ Feature: Go to the Columbia Sportswear web site, search for a product, review pr
       | url                    | http://www.columbia.com    |
       | platform               | OSX 10.6                   |
       | browser                | firefox                    |
-      | browser version        | 21                         |
+      | browser version        | 26                         |
 
 
   Scenario: (Optional) Go to the Country/Language page

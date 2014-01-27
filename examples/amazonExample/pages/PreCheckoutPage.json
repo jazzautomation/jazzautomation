@@ -7,7 +7,7 @@
     {
       "proceedToCheckout" :
         {
-            "jquery": "$('a.s_checkout.hlb-checkout-button')"
+            "jquery": "$('.hlb-checkout-button')"
         },
       "orderSubtotal" :
         {

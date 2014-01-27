@@ -4,8 +4,8 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
     Given the following settings:
       | url              | http://www.amazon.com  |
       | platform         | Vista                  |
-      | browser          | firefox                |
-      | browser version  | 23                     |
+      | browser          | chrome                 |
+      | browser version  | 29                     |
 
 
   Scenario: Verify that we have an empty cart on the initial portal page
@@ -17,9 +17,9 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
     Given I am ON "HomePage"
     And I click "allButton"
     And I select
-      |  selectCategory   | Books    |   
+      |  selectCategory   | Books         |   
     And I enter
-      | searchField       | Harry Potter                 | 
+      | searchField       | Harry Potter  | 
     And I click "go"   
     And I wait 10 seconds
 
@@ -39,20 +39,20 @@ Feature: Go to the Amazon web site, search for Harry Porter at book section. Fin
     Given I am ON "BookDetailPage" 
     Then I should EXPECT    
     | kindlePrice            | $7.99             |
-    | libraryBindingPrice    | $16.23            |    
-    | paperbackPrice         | $8.98             |
+    | hardcoverPrice    	 | $16.89            |    
+    | paperbackPrice         | $8.53             |
     
   Scenario: Add to cart
     Given I am ON "BookDetailPage"
-    And I click "libraryBinding"  
+    And I click "hardcover"  
     And I click "addToCart"      
     Then I should be ON "PreCheckoutPage" 
 
   Scenario: on pre-checkout page, I check all my items
     Given I am ON "PreCheckoutPage"
     Then I should EXPECT
-      | orderSubtotal          	| 16.32 	|
-      | cartCount          		| 1 		|     
+      | orderSubtotal            | 16.89   |
+      | cartCount                | 1       |     
        
   Scenario: proceed to checkout
     Given I am ON "PreCheckoutPage"
