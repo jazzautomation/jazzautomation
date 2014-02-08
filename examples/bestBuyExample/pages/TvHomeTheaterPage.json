@@ -6,7 +6,7 @@
     {
       "televisions" :
         {
-          "jquery": "$('#primary dl dt a[name=\"&lid=tvv_dpt_televisions\"]')"          
+          "jquery": "$('a[name=\"&lid=TVs\"]')"
         }
     }
 }

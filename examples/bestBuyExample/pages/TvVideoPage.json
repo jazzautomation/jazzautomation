@@ -1,7 +1,7 @@
 {
   "pageName":"TvVideoPage",
   "title": "",
-  "urlExtension": "TV-Video/Televisions/",
+  "urlExtension": "tv-home-theater/tvs/",
   "domElements" :
     {
       "shopTVsBySize" :
